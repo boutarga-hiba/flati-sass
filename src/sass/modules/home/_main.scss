@@ -1,0 +1,676 @@
+section {
+    max-width: 100%;
+    height: 50vh;
+
+    .img-1 {
+        img {
+            width: 100%;
+            height: 50vh;
+
+        }
+    }
+}
+
+// mode 4k
+@media (min-width:2560px) {
+    section {
+        width: 100%;
+        height: auto;
+
+        .img-1 {
+            width: 100%;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+// mode telephone section img
+@media (min-width:375px) and (max-width:426px) {
+    section {
+        width: 100%;
+        height: 35vh;
+
+        .img-1 {
+            width: 100%;
+
+            img {
+                width: 100%;
+                height: 35vh;
+
+            }
+        }
+    }
+}
+
+// section 2 paragraphe
+.section-2 {
+    background-color: #e8e6e0 ;
+    max-width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+
+    .paragraphe {
+        max-width: 48%;
+        height: 30vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+        color: #74747a;
+
+        p {
+
+            font-size: 20px;
+            text-align: center;
+            font-weight: 400;
+            
+
+            .bg-aqua {
+                color: white;
+                background:#26a2cc;
+                padding: 3px;
+            }
+            .clr-aqua
+            {
+                color: #26a2cc;
+                font-weight: bold;
+            }
+        }
+
+        h5 {
+            text-align: center;
+            font-size: 20px;
+
+        }
+
+    }
+
+}
+
+// section 2 format 4K
+@media (min-width:2560px) {
+    .section-2 {
+        background-color: #e8e6e0 ;
+        max-width: 100%;
+        height: 30vh;
+        display: flex;
+        justify-content: center;
+
+        .paragraphe {
+            max-width: 58%;
+            height: 30vh;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            gap: 20px;
+
+            p {
+
+                font-size: 54px;
+                text-align: center;
+                font-weight: 400;
+
+                span {
+                    color: rgb(39, 108, 108);
+
+                }
+            }
+
+            h5 {
+                text-align: center;
+                font-size: 52px;
+
+            }
+
+        }
+
+    }
+}
+
+//section 2 format de telephone
+@media (min-width:375px) and (max-width:426px) {
+
+    .section-2 {
+        background-color: #e8e6e0 ;
+        max-width: 100%;
+        height: 30vh;
+        display: flex;
+        justify-content: center;
+
+        .paragraphe {
+            max-width: 65%;
+            height: 30vh;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            gap: 20px;
+
+            p {
+
+                font-size: 17px;
+                text-align: center;
+                font-weight: 400;
+
+                span {
+                    color: rgb(39, 108, 108);
+
+                }
+            }
+
+            h5 {
+                text-align: center;
+                font-size: 17px;
+
+            }
+
+        }
+
+    }
+}
+
+// section 3 les cartes
+.section-3 {
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #efeff1;
+
+    .d-flex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 38px;
+
+
+        .carte {
+            width: 18vw;
+            height: 39vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            border-radius: 3%;
+            gap: 3px;
+            background-color: #e2e0e0;
+
+            .icone {
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: blue;
+                background-color: white;
+
+                i {
+                    font-size: 30px;
+                }
+            }
+
+            .titre {
+                text-align: center;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                h4 {
+                    text-transform: uppercase;
+                    font-weight: 100;
+                    color: #4c4951;
+                    padding-bottom: 18px;
+                }
+
+                h5 {
+                    font-weight: 600;
+                    color: #26a2cc;
+                }
+
+            }
+
+            .paragraphe {
+                width: 200px;
+                text-align: center;
+                color: #74747a;
+                font-size: 15px;
+            }
+
+        }
+    }
+}
+
+// section 3 taille 4k
+@media (min-width:2560px) {
+
+    .section-3 {
+        .d-flex {
+
+            gap: 66px;
+
+            .carte {
+                width: 22vw;
+                height: 40vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                border-radius: 2%;
+                gap: 44px;
+                background-color: #e2e0e0;
+
+                .icone {
+                    width: 130px;
+                    height: 130px;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: blue;
+                    background-color: white;
+
+                    i {
+                        font-size: 70px;
+                    }
+                }
+
+                .titre {
+                    text-align: center;
+                    font-size: 45px;
+
+                    h4 {
+                        text-transform: uppercase;
+                        font-weight: 100;
+                    }
+
+                    h5 {
+                        font-weight: 600;
+                        color:#26a2cc ;
+                    }
+
+                }
+
+                .paragraphe {
+                    width: 21vw;
+                    height: 20vh;
+                    font-size: 43px;
+                    color:#434a5e;
+
+                }
+
+            }
+        }
+    }
+}
+
+// section 3 taille telephone
+@media (min-width:375px) and (max-width:426px) {
+    .section-3 {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding-top: 30px;
+
+        .d-flex {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            flex-wrap: wrap;
+
+
+
+            .carte {
+                width: 54vw;
+                height: 43vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 3%;
+                gap: 3px;
+                background-color: #e2e0e0;
+
+                .icone {
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: blue;
+                    background-color: white;
+
+                    i {
+                        font-size: 30px;
+                    }
+                }
+
+                .titre {
+                    text-align: center;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+
+                    h4 {
+                        text-transform: uppercase;
+                        font-weight: 100;
+                        padding-bottom: 10px;
+
+                    }
+
+                    h5 {
+                        font-weight: 100;
+                        color:#26a2cc
+                        ;
+                    }
+
+                }
+
+                .paragraphe {
+                    width: 190px;
+                    height: 60px;
+                    text-align: justify;
+                    font-size: 14px;
+                    color:#434a5e;
+
+                }
+
+            }
+        }
+    }
+}
+
+// section4
+.section-4 {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    background-color: #efeff1;
+
+
+    .d-flex {
+        width: 83%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        .paragraphe-s4 {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+
+            h1{
+                color:#434a5e;
+                font-weight: 100;
+            }
+
+            .mini-ps4 {
+                width: 300px;
+                color:#808ba8;
+
+            }
+            p{
+                color:#434a5e;
+
+                width: 300px;
+
+            }
+
+            .btn-s4 {
+                .por {
+                    color: aliceblue;
+                    text-decoration: none;
+                    padding: 18px;
+                    background-color: #26a2cc ;
+                    border-radius: 6%;
+                }
+            }
+        }
+
+        .img-s4 {
+            .d-flex {
+                display: flex;
+                justify-content: start;
+                align-items: center;
+                gap: 10px;
+                .img {
+                    width: 190px;
+                    margin-top: 20px;
+
+                    img {
+                        width: 190px;
+                        object-fit: cover;                        
+                    }
+                        .paragraphess4 {
+                            width: 190px;
+                            text-align: center;
+                            background-color: #38485f;
+                            height: auto;
+                            margin-top: -4px;
+                            color: white;
+                            border-radius: 3%;
+                            display: flex;
+                            flex-direction: column;
+                            gap: 13px;
+                            padding: 5px 0 8px 0;
+
+                            .titre4 {
+                                text-align: center;
+                                text-transform: uppercase;
+                                font-size: 17px;
+                                font-weight: 100;
+
+                            }
+                          
+
+                            .ps4 {
+                               font-size: 15px;
+                               color: #819195;
+
+                            }
+
+                        }
+                    
+                }
+            }
+        }
+    }
+}
+// section 4 4K
+@media (min-width:2560px)
+{
+    .section-4 {
+        width: 100%;
+        height: 70vh;
+        display: flex;
+        justify-content: center;
+        background-color: #efeff1 ;
+        padding-top: 100px;    
+        margin-bottom: -300px;
+    
+        .d-flex {
+            width: 97%;
+            height: auto;
+            display: flex;
+            justify-content: space-between;
+            .paragraphe-s4 {
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+                h1{
+                    font-size: 60px;
+
+                }
+                .mini-ps4{
+                    width: 870px;
+                    font-size: 46px;
+                }
+    
+                p {
+                    width: 870px;
+                    font-size: 46px;
+                    margin-bottom: 20px;
+                }
+    
+                .btn-s4 {
+                    margin-top:25px ;
+
+                    .por {
+                        color: aliceblue;
+                        text-decoration: none;
+                        padding: 38px;
+                        font-size: 50px;
+                        border-radius: 6%;
+                    }
+                }
+            }
+    
+            .img-s4 {
+                .d-flex {
+                    display: flex;
+                    justify-content: start;
+                    align-items: center;
+                    gap: 60px;
+                    width: 100%;
+                    height: auto;
+                    .img {
+                        width: 470px;
+    
+                        img {
+                            width: 470px;
+                            
+                        }
+                            .paragraphess4 {
+                                width: 470px;
+                                height: 250px;
+                                text-align: center;
+                                margin-top: -4px;
+                                color: white;
+                                border-radius: 3%;
+                                display: flex;
+                                flex-direction: column;
+                                gap: 13px;
+                                .titre4 {
+                                    text-align: center;
+                                    text-transform: uppercase;
+                                    font-size: 45px;
+                                }
+    
+                                .ps4 {
+                                    
+                                    font-size: 40px;
+                                    text-align: center;
+    
+                                }
+    
+                            }
+                        
+                    }
+                }
+            }
+        }
+    }
+}
+// sevtion 4 mobile
+@media (min-width:375px) and (max-width:426px)
+{
+    .section-4 {
+        width: 100%;
+        height: auto;
+        background-color: #efeff1 ;
+        padding-top: 50px;
+      padding-bottom: 50px;
+    
+        .d-flex {
+            width: 70%;
+            height: auto;
+           display: flex;
+           align-items: center;
+           flex-direction: column;
+           gap: 20px;
+            .paragraphe-s4 {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+                h1{
+                    text-align: center;
+                }
+                .mini-ps4
+                {
+                    width: 100%;
+                    font-size: 15px;
+
+                }
+    
+                p {
+                    width: 100%;
+                    text-align: center;
+                    font-size: 15px;
+                }
+    
+                .btn-s4 {
+                    display: flex;
+                    justify-content: center;
+                    .por {
+                        color: aliceblue;
+                        text-decoration: none;
+                        padding: 12px;
+                        border-radius: 6%;
+
+                        
+                    }
+                }
+            }
+    
+            .img-s4 {
+                width: 100%;
+                .d-flex {
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
+                    .img {
+                        width: 180px;
+                        height: 215px;
+                        
+    
+                        img {
+                            width: 180px;
+                            
+                        }
+                            .paragraphess4 {
+                                width: 180px;
+                                text-align: center;
+                                height: auto;
+                                margin-top: -4px;
+                                color: white;
+                                border-radius: 3%;
+                                display: flex;
+                                flex-direction: column;
+                                gap: 13px;
+                                .titre4 {
+                                    text-align: center;
+                                    text-transform: uppercase;
+                                    font-size: 18px;
+                                }
+    
+                                .ps4 {
+                                    width: 180px;
+                                    height: 38px;
+                                    font-size: 14px;
+    
+                                }
+    
+                            }
+                        
+                    }
+                }
+            }
+        }
+    }
+}
